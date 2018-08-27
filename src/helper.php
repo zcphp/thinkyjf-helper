@@ -11,8 +11,8 @@
 
 //Route::get('captcha/[:id]', "\\think\\captcha\\CaptchaController@index");
 
-Validate::extend('captcha', function ($value, $id = '') {
-    return captcha_check($value, $id);
+Validate::extend('yjfecho', function ($value, $id = '') {
+    return yjfecho($value, $id);
 });
 
 //Validate::setTypeMsg('captcha', ':attribute错误!');
@@ -52,7 +52,7 @@ Validate::extend('captcha', function ($value, $id = '') {
  * @param array  $config
  * @return bool
  */
-function captcha_check($value, $id = '')
+function yjfecho($value, $id = '')
 {
 	echo 111;
 	return 2;

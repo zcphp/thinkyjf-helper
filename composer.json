@@ -1,19 +1,20 @@
 {
     "name": "zcphp/think-yjf",
-    "description": "captcha package for thinkphp5",
+    "description": "The ThinkPHP5.1 Yjf Package",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Mr.long",
             "email": "admin@zcphp.com"
         }
     ],
-    "license": "Apache-2.0",
+    "minimum-stability": "dev",
     "require": {
-    	"topthink/framework": "5.1.*"
+        "topthink/framework": "5.1.*"
     },
     "autoload": {
         "psr-4": {
-            "think\\captcha\\": "src/"
+            "think\\": "src/"
         },
         "files": [
             "src/helper.php"

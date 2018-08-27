@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require-dev": {
-        "topthink/framework": "^5.1",
+        "topthink/framework": "^5.1"
     },
     "require": {},
     "autoload": {

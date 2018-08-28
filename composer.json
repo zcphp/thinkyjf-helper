@@ -1,12 +1,12 @@
 {
-    "name": "zcphp/think-yjf",
-    "description": "zc think yjf",
+    "name": "thinkyjf/helper",
+    "description": "Thinkyjf helper",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "longlzc",
-            "email": "793333136@qq.com"
+            "name": "Mr.long",
+            "email": "admin@zcphp.com"
         }
     ],
     "minimum-stability": "dev",
